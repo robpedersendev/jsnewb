@@ -2,7 +2,14 @@
 
 ## Background
 
-**Pitch**
+This blog provides an all-about-javascript one stop shop review, built using javscript libraries and frameworks, all geared towards the common day newb.
+It needs
+-Blogging functionality
+-Payment processing
+-Authentication for Admin and guest writers and readers
+-Commenting functionality
+-RSS feed outgoing functionality
+
 
 #{What is the problem this project is solving?}
 
