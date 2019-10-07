@@ -17,7 +17,10 @@ import BlogLayout from '../components/BlogLayout'
 import BlogPostLayout from '../components/BlogPostLayout'
 import siteMetadata from '../siteMetadata'
 import posts from './posts'
+
+// Nav components, they should render on every page of the website, Please move them if they are in the wrong index, currently they are working
 import NavBar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 // Split the posts into a list of chunks of the given size, and
 // then build index pages for each chunk.
@@ -61,6 +64,7 @@ let chunkPagePairs = chunks.map((chunk, i) => [
           pageCount={chunks.length}
           postRoutes={postRoutes}
           />
+        <Footer />
         </>
       ),
     })

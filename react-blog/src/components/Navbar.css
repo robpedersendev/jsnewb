@@ -1,13 +1,21 @@
 .bar{
+top: 0;
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
+position: fixed;
+background-color: white;
+width: 100%;
+}
+
+.nav-logo{
+    margin: 0 5%;
 }
 
 .nav-links{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+margin: 0 20%;
 }
 
 .nav-links a{
@@ -19,9 +27,9 @@ justify-content: space-around;
 /* covers the top and bottom of the page in a read line         */
 /* when the user hovers over a link                             */
 
-.nav-links a:before{
+.nav-links:before{
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,9 +40,9 @@ justify-content: space-around;
     transition: transform 0.3s;
 }
 
-.nav-links a:after{
+.nav-links:after{
     content: '';
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -45,10 +53,10 @@ justify-content: space-around;
     transition: transform 0.3s;
 }
 
-.nav-links a:hover:before{
+.nav-links:hover:before{
     transform: scaleX(1);
 }
 
-.nav-links a:hover:after{
+.nav-links:hover:after{
     transform: scaleX(1);
 }
