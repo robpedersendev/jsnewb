@@ -1,0 +1,54 @@
+.bar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.nav-links{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.nav-links a{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* these next four classes are used to create an animation that */
+/* covers the top and bottom of the page in a read line         */
+/* when the user hovers over a link                             */
+
+.nav-links a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #DD5669 ;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s;
+}
+
+.nav-links a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #DD5669;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+}
+
+.nav-links a:hover:before{
+    transform: scaleX(1);
+}
+
+.nav-links a:hover:after{
+    transform: scaleX(1);
+}

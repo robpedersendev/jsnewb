@@ -17,6 +17,7 @@ import BlogLayout from '../components/BlogLayout'
 import BlogPostLayout from '../components/BlogPostLayout'
 import siteMetadata from '../siteMetadata'
 import posts from './posts'
+import NavBar from '../components/Navbar'
 
 // Split the posts into a list of chunks of the given size, and
 // then build index pages for each chunk.
@@ -52,12 +53,15 @@ let chunkPagePairs = chunks.map((chunk, i) => [
     return route({
       title: pageTitle,
       view: (
+        <>
+        <NavBar /> 
         <BlogIndexPage
           blogRoot={context.blogRoot}
           pageNumber={i + 1}
           pageCount={chunks.length}
           postRoutes={postRoutes}
-        />
+          />
+        </>
       ),
     })
   }),
