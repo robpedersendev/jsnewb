@@ -24,7 +24,7 @@ function Bio(props) {
         created this blog with the sole focus of taking the hard to understand
         topics of everything javascript, vanilla or not, and making it easy to
         understand for the newb in all of us. Follow him on twitter{" "}
-        <a href="https://twitter.com/RobPedersenDev">RobPedersenDev</a>, Watch
+        <a href="https://twitter.com/RobPedersenDev">RobPedersenDev</a>, watch
         him on{" "}
         <a href="https://www.youtube.com/channel/UCc9FPf3yA0qAHaKO-6-tRGg">
           YouTube
