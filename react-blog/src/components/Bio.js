@@ -23,7 +23,7 @@ function Bio(props) {
         However, in reality, there is a fourth level. The newb level. Robert
         created this blog with the sole focus of taking the hard to understand
         topics of everything javascript, vanilla or not, and making it easy to
-        understand for the newb in all of us. Follow him on twitter
+        understand for the newb in all of us. Follow him on twitter{" "}
         <a href="https://twitter.com/RobPedersenDev">RobPedersenDev</a>, Watch
         him on{" "}
         <a href="https://www.youtube.com/channel/UCc9FPf3yA0qAHaKO-6-tRGg">
