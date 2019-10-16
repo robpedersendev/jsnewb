@@ -17,17 +17,23 @@ function Bio(props) {
     >
       <img src={photoURL} alt="Me" />
       <p>
-        Create a blog with a single command, by{" "}
-        <a href="https://twitter.com/james_k_nelson/">James K Nelson</a>.
-        <br />
-        Themed after Gatsby's blog starter and Dan Abramov's{" "}
-        <a href="https://overreacted.io/">overreacted.io</a>.<br />
-        Based on{" "}
-        <a href="https://facebook.github.io/create-react-app/">
-          create-react-app
+        Robert is a full stack javascript developer who has first hand
+        experience how difficult it is to start out as a developer. As the world
+        sees it, there are Juniors, Mid-level, and Senior level developers.
+        However, in reality, there is a fourth level. The newb level. Robert
+        created this blog with the sole focus of taking the hard to understand
+        topics of everything javascript, vanilla or not, and making it easy to
+        understand for the newb in all of us. Follow him on twitter{" "}
+        <a href="https://twitter.com/RobPedersenDev">RobPedersenDev</a>, watch
+        him on{" "}
+        <a href="https://www.youtube.com/channel/UCc9FPf3yA0qAHaKO-6-tRGg">
+          YouTube
         </a>
-        , <a href="https://mdxjs.com/">MDX</a>, and{" "}
-        <a href="https://frontarm.com/navi/">Navi</a>.
+        , or drop him a{" "}
+        <a href="https://robertpedersen.dev/#contact" target="_blank">
+          line
+        </a>
+        .
       </p>
     </div>
   );
