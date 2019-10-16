@@ -29,7 +29,11 @@ function Bio(props) {
         <a href="https://www.youtube.com/channel/UCc9FPf3yA0qAHaKO-6-tRGg">
           YouTube
         </a>
-        , or drop him a <a href="https://robertpedersen.dev/#contact">line</a>.
+        , or drop him a{" "}
+        <a href="https://robertpedersen.dev/#contact" target="_blank">
+          line
+        </a>
+        .
       </p>
     </div>
   );
